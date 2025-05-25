@@ -39,7 +39,6 @@ INSERT INTO sightings (species_id, ranger_id, location, sighting_time, notes) VA
 (3, 3, 'Bamboo Grove East', '2024-05-15 09:10:00', 'Feeding observed'),
 (1, 2, 'Snowfall Pass', '2024-05-18 18:30:00', NULL);
 
-
 SELECT * FROM rangers;
 SELECT * FROM species;
 SELECT * FROM sightings;
@@ -89,15 +88,13 @@ SET conservation_status = 'Historic'
 WHERE discovery_date < '1800-01-01';
 
 -- Problem 08
-SELECT 
-    sighting_id,
+SELECT sighting_id,
     CASE
         WHEN EXTRACT(HOUR FROM sighting_time) < 12 THEN 'Morning'
         WHEN EXTRACT(HOUR FROM sighting_time) < 17 THEN 'Afternoon'
         ELSE 'Evening'
     END AS time_of_day
 FROM sightings;
-
 
 -- Problem 09
 DELETE
