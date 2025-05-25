@@ -1,13 +1,18 @@
 # Assignment 02 - PostgreSQL
 
-This repository contains the solution for Assignment 02 of the **Next Level Web Development** course by **Programming Hero**. The assignment is focused on **Relational Database Management Systems (RDBMS)** and **PostgreSQL**.
+## Bonus Section
+### Question 1 - What is PostgreSQL?
 
-## Topics Covered
+PostgreSQL একটা ওপেন সোর্স ডেটাবেস সফটওয়্যার, যেটা দিয়ে আমরা ডেটা সংরক্ষণ, খোঁজা, আপডেট করা—এই সব কাজ করতে পারি। সহজভাবে বললে, এটা এমন একটা সিস্টেম যেটাতে আমরা বিভিন্ন তথ্য (যেমন ইউজার ইনফো, পাসওয়ার্ড, অর্ডার ডেটা ইত্যাদি) সেভ করে রাখতে পারি এবং দরকার হলে সেগুলো খুঁজে বের করতে পারি।
 
-- Introduction to RDBMS
-- PostgreSQL basics
-- Creating tables and inserting data
-- Writing SQL queries
-- Using relationships (one-to-many, many-to-many)
-- Primary keys and foreign keys
-- Basic data normalization
+**কেন PostgreSQL ব্যবহার করবো?**
+
+- এটা একদম ফ্রি এবং ওপেন সোর্স
+
+- বড় প্রজেক্ট হোক বা ছোট, দুটোর জন্যই কাজের
+
+- একসাথে অনেক ইউজার কাজ করতে পারে
+
+- জটিল টাইপের ডেটা (যেমন JSON) হ্যান্ডেল করতে পারে
+
+- অনেক ফিচার আছে — ট্রানজেকশন, ট্রিগার, স্টোর্ড প্রোসেস ইত্যাদি
